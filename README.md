@@ -10,7 +10,7 @@ Basics
 
 Create a 'fonts' folder in your *assets* folder. Copy the font files into that folder:
 
-![Fonts in Assets folder](img/assets.png)
+![Fonts in Assets folder](https://github.com/fontshop/AndroidAppFontDemo/blob/master/img/assets.png)
 
 The font format can be either Truetype (\*.ttf) or OpenType (\*.otf).
 
@@ -32,7 +32,7 @@ See [Android Typeface API](http://developer.android.com/reference/android/graphi
 Text based controls (TextViews, EditTexts, Buttons etc.)
 --------------------------------------------------------
 
-![Buttons](img/buttons.png)
+![Buttons](https://github.com/fontshop/AndroidAppFontDemo/blob/master/img/buttons.png)
 
 Given the font reference, you can set the typeface property of all controls that are subclasses of [TextView](http://developer.android.com/reference/android/widget/TextView.html) (basically all controls that have some kind of text in them).
 
@@ -55,7 +55,7 @@ We can even implement a dedicated 'Font Setter' that encapsulates those ideas an
 Title bars
 ----------
 
-![Individualized title bar](img/titlebar.png)
+![Individualized title bar](https://github.com/fontshop/AndroidAppFontDemo/blob/master/img/titlebar.png)
 
 
 We need to check if title bar customization is available (specifically, in the activity's [onCreate](http://developer.android.com/reference/android/app/Activity.html#onCreate(android.os.Bundle\))) method, **before** interfering with the Layout):
@@ -79,7 +79,7 @@ Then we can go ahead and customize the titlebar with a custom layout and set a t
 List views
 ----------
 
-![ListView](img/listview.png)
+![ListView](https://github.com/fontshop/AndroidAppFontDemo/blob/master/img/listview.png)
 
 
 We need to implement a custom [Adapter](http://developer.android.com/reference/android/widget/Adapter.html) to assign the Typeface to list items when they are generated. Look into the sample implementation *CustomFontArrayAdapter*.
@@ -95,12 +95,12 @@ Then we use it like this:
 Web Views
 ---------
 
-![Webview](img/webview.png)
+![Webview](https://github.com/fontshop/AndroidAppFontDemo/blob/master/img/webview.png)
 
 
 You can use your mobile fonts for local [WebView](http://developer.android.com/reference/android/webkit/WebView.html) based views as well. Let's say you put test.html in your *assets* folder like this:
 
-![Assets for Webview](img/assets_webview.png)
+![Assets for Webview](https://github.com/fontshop/AndroidAppFontDemo/blob/master/img/assets_webview.png)
 
 The html file (or its CSS file) should declare the @font-face style property as follows:
 
